@@ -7,7 +7,7 @@ import board
 
 dht_device = adafruit_dht.DHT11(board.D18, use_pulseio=True)
 
-BLYNK_AUTH_TOKEN = 'XNTGlkG_11KgKb8agu4oF-oGZCTh3cnR'
+BLYNK_AUTH_TOKEN = 'api-key'
 
 blynk = BlynkLib.Blynk(BLYNK_AUTH_TOKEN)
 timer = BlynkTimer()
